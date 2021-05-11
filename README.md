@@ -8,7 +8,7 @@
 
 ## Esse projeto foi submetido a testes de 18 requisitos, atingindo 100% dos que foi proposto:
 
-\### 1 - Deve haver um `input` com o id=\"carta-texto\" onde a pessoa usuária poderá digitar o conteúdo da carta
+### 1 - Deve haver um `input` com o id=\"carta-texto\" onde a pessoa usuária poderá digitar o conteúdo da carta
 
 
 
@@ -16,11 +16,11 @@
 
 
 
-\- Será validado que existe um elemento `input` com `id=carta-texto`
+- Será validado que existe um elemento `input` com `id=carta-texto`
 
 
 
-\### 2 - Deve haver um parágrafo com o id=\"carta-gerada\" onde a pessoa usuária verá o resultado de sua carta misteriosa
+### 2 - Deve haver um parágrafo com o id=\"carta-gerada\" onde a pessoa usuária verá o resultado de sua carta misteriosa
 
 
 
@@ -28,11 +28,11 @@
 
 
 
-\- Será validado que existe um elemento `p` com o `id="carta-gerada"`
+- Será validado que existe um elemento `p` com o `id="carta-gerada"`
 
 
 
-\### 3 - Deve haver um botão com id=\"criar-carta\" e ao clicar nesse botão, a carta misteriosa deve ser gerada
+### 3 - Deve haver um botão com id=\"criar-carta\" e ao clicar nesse botão, a carta misteriosa deve ser gerada
 
 
 
@@ -40,25 +40,9 @@
 
 
 
-​    \* Cada palavra deve aparecer dentro de uma tag `span`.
+​    * Cada palavra deve aparecer dentro de uma tag `span`.
 
-​    \* As tags `span` devem ser adicionadas como filhas do parágrafo que possui o id `carta-gerada`.
-
-
-
-**O que será verificado:**
-
-
-
-\- Será validado que existe um elemento `button` com `id="criar-carta"`
-
-
-
-\- Será validado que ao clicar no botão, a carta misteriosa deve ser gerada
-
-
-
-\### 4 - Ao criar uma carta através do botão com id="criar-carta", o `input` com id="carta-texto" deve permanecer com o texto digitado
+​    * As tags `span` devem ser adicionadas como filhas do parágrafo que possui o id `carta-gerada`.
 
 
 
@@ -66,11 +50,15 @@
 
 
 
-\- Será validado que ao criar uma carta através do botão `id="criar-carta"` o input` com id=\"carta-texto\" permanece com o texto digitado
+- Será validado que existe um elemento `button` com `id="criar-carta"`
 
 
 
-\### 5 - Se a pessoa usuária não preencher o campo ou preencher com apenas espaços vazios adicionar a mensagem 'Por favor, digite o conteúdo da carta.'
+- Será validado que ao clicar no botão, a carta misteriosa deve ser gerada
+
+
+
+### 4 - Ao criar uma carta através do botão com id="criar-carta", o `input` com id="carta-texto" deve permanecer com o texto digitado
 
 
 
@@ -78,11 +66,23 @@
 
 
 
-\- Será validado que irá exibir a mensagem "Por favor, digite o conteúdo da carta." no elemento `p` com o `id="carta-gerada"
+- Será validado que ao criar uma carta através do botão `id="criar-carta"` o input` com id=\"carta-texto\" permanece com o texto digitado
 
 
 
-\### 6 - Crie a classe `newspaper`
+### 5 - Se a pessoa usuária não preencher o campo ou preencher com apenas espaços vazios adicionar a mensagem 'Por favor, digite o conteúdo da carta.'
+
+
+
+**O que será verificado:**
+
+
+
+- Será validado que irá exibir a mensagem "Por favor, digite o conteúdo da carta." no elemento `p` com o `id="carta-gerada"
+
+
+
+### 6 - Crie a classe `newspaper`
 
 
 
@@ -90,51 +90,13 @@
 
 
 
-​    \* Defina as propriedades:
+​    * Defina as propriedades:
 
-​      \- `background-color` com o valor `antiquewhite`
+​      - `background-color` com o valor `antiquewhite`
 
-​      \- `font-family` com o valor `Times New Roman`
+​      - `font-family` com o valor `Times New Roman`
 
-​      \- `font-weight` com o valor `bold`
-
-
-
-**O que será verificado:**
-
-
-
-\- Será validado se a classe `newspaper` possui a propriedade `background-color` igual a rgb(250, 235, 215)
-
-
-
-\- Será validado se a classe `newspaper` possui `font-family` igual a "Times New Roman"
-
-
-
-\- Será validado se a classe `newspaper` possui a propriedade `font-weight` igual a 700
-
-
-
-\### 7 - Crie a classe `magazine1`.
-
-
-
-  Pontos importantes:
-
-
-
-​    \* Defina as propriedades:
-
-​      \- `background-color` com o valor `teal`
-
-​      \- `color` com o valor `white`
-
-​      \- `font-family` com o valor `Verdana`
-
-​      \- `font-weight` com o valor `900`
-
-​      \- `text-transform` com o valor `uppercase`
+​      - `font-weight` com o valor `bold`
 
 
 
@@ -142,27 +104,19 @@
 
 
 
-\- Será validado se a classe `magazine1` possui a propriedade `background-color` igual a rgb(0, 128, 128)`
+- Será validado se a classe `newspaper` possui a propriedade `background-color` igual a rgb(250, 235, 215)
 
 
 
-\- Será validado se a classe `magazine1` possui  a propriedade `color` igual a rgb(255, 255, 255)`
+- Será validado se a classe `newspaper` possui `font-family` igual a "Times New Roman"
 
 
 
-\- Será validado se a classe `magazine1` possui propriedade `font-family` igual a "Verdana"
+- Será validado se a classe `newspaper` possui a propriedade `font-weight` igual a 700
 
 
 
-\-  Será validado se a classe `magazine1` possui a propriedade `font-weight` igual a "900"
-
-
-
-\- Será validado se a classe `magazine1` possui a propriedade `text-transform` igual a "uppercase"`
-
-
-
-\### 8 - Crie a classe `magazine2`.
+### 7 - Crie a classe `magazine1`.
 
 
 
@@ -170,15 +124,17 @@
 
 
 
-​    \* Defina as propriedades:
+​    * Defina as propriedades:
 
-​      \- `background-image` com a imagem `images/pink-pattern.png`
+​      - `background-color` com o valor `teal`
 
-​      \- `color` com o valor `fuchsia`
+​      - `color` com o valor `white`
 
-​      \- `font-family` com o valor `Verdana`
+​      - `font-family` com o valor `Verdana`
 
-​      \- `font-weight` com o valor `900`
+​      - `font-weight` com o valor `900`
+
+​      - `text-transform` com o valor `uppercase`
 
 
 
@@ -186,23 +142,27 @@
 
 
 
-\- Será validado se a classe `magazine2` possui a propriedade `background-image` igual a "images/pink-pattern.png"
+- Será validado se a classe `magazine1` possui a propriedade `background-color` igual a rgb(0, 128, 128)`
 
 
 
-\- Será validado se a classe `magazine2` possui a propriedade `color` igual a rgb(255, 0, 255)
+- Será validado se a classe `magazine1` possui  a propriedade `color` igual a rgb(255, 255, 255)`
 
 
 
-\- Será validado se a classe `magazine2` possui a propriedade `font-family` igual a "Verdana"
+- Será validado se a classe `magazine1` possui propriedade `font-family` igual a "Verdana"
 
 
 
-\- Será validado se a classe `magazine2` possui a propriedade `font-weight` igual a "900"
+-  Será validado se a classe `magazine1` possui a propriedade `font-weight` igual a "900"
 
 
 
-\### 9 - Crie a classe `medium`.
+- Será validado se a classe `magazine1` possui a propriedade `text-transform` igual a "uppercase"`
+
+
+
+### 8 - Crie a classe `magazine2`.
 
 
 
@@ -210,11 +170,15 @@
 
 
 
-​    \* Defina as propriedades:
+​    * Defina as propriedades:
 
-​      \- `font-size` com o valor `20px`
+​      - `background-image` com a imagem `images/pink-pattern.png`
 
-​      \- `padding` com o valor `8px`
+​      - `color` com o valor `fuchsia`
+
+​      - `font-family` com o valor `Verdana`
+
+​      - `font-weight` com o valor `900`
 
 
 
@@ -222,17 +186,23 @@
 
 
 
-\- Será validado se a classe `medium` possui a propriedade `font-size` igual a "20px"
+- Será validado se a classe `magazine2` possui a propriedade `background-image` igual a "images/pink-pattern.png"
 
 
 
-\- Será validado se a classe `medium` possui a propriedade `padding` igual a "8px"
+- Será validado se a classe `magazine2` possui a propriedade `color` igual a rgb(255, 0, 255)
 
 
 
+- Será validado se a classe `magazine2` possui a propriedade `font-family` igual a "Verdana"
 
 
-\### 10 - Crie a classe `big`.
+
+- Será validado se a classe `magazine2` possui a propriedade `font-weight` igual a "900"
+
+
+
+### 9 - Crie a classe `medium`.
 
 
 
@@ -240,11 +210,11 @@
 
 
 
-​    \* Defina as propriedades:
+​    * Defina as propriedades:
 
-​      \- `font-size` com o valor `30px`
+​      - `font-size` com o valor `20px`
 
-​      \- `padding` com o valor `10px`
+​      - `padding` com o valor `8px`
 
 
 
@@ -252,15 +222,17 @@
 
 
 
-\- Será validado se a classe `big` possui a propriedade `font-size` igual a "30px"
+- Será validado se a classe `medium` possui a propriedade `font-size` igual a "20px"
 
 
 
-\- Será validado se a classe `big` possui a propriedade `padding` igual a "10px"
+- Será validado se a classe `medium` possui a propriedade `padding` igual a "8px"
 
 
 
-\### 11 - Crie a classe `reallybig`.
+
+
+### 10 - Crie a classe `big`.
 
 
 
@@ -268,11 +240,11 @@
 
 
 
-​    \* Defina as propriedades:
+​    * Defina as propriedades:
 
-​      \- `font-size` com o valor `40px`
+​      - `font-size` com o valor `30px`
 
-​      \- `padding` com o valor `15px`
+​      - `padding` com o valor `10px`
 
 
 
@@ -280,15 +252,15 @@
 
 
 
-\- Será validado se a classe `reallybig` possui a propriedade `font-size` igual a "40px"
+- Será validado se a classe `big` possui a propriedade `font-size` igual a "30px"
 
 
 
-\- Será validado se a classe `reallybig` possui a propriedade `padding` igual a "15px"
+- Será validado se a classe `big` possui a propriedade `padding` igual a "10px"
 
 
 
-\### 12 - Crie a classe `rotateleft`.
+### 11 - Crie a classe `reallybig`.
 
 
 
@@ -296,9 +268,11 @@
 
 
 
-​    \* Defina as propriedades:
+​    * Defina as propriedades:
 
-​      \- `transform` com o valor `rotate(-5deg)`
+​      - `font-size` com o valor `40px`
+
+​      - `padding` com o valor `15px`
 
 
 
@@ -306,11 +280,15 @@
 
 
 
-\- Será validado se a classe `rotateleft` possui a propriedade `transform` igual a "matrix(0.996195, -0.0871557, 0.0871557, 0.996195, 0, 0)"
+- Será validado se a classe `reallybig` possui a propriedade `font-size` igual a "40px"
 
 
 
-\### 13 - Crie a classe `rotateright`.
+- Será validado se a classe `reallybig` possui a propriedade `padding` igual a "15px"
+
+
+
+### 12 - Crie a classe `rotateleft`.
 
 
 
@@ -318,9 +296,9 @@
 
 
 
-​    \* Defina as propriedades:
+​    * Defina as propriedades:
 
-​      \- `transform` com o valor `rotate(5deg)`
+​      - `transform` com o valor `rotate(-5deg)`
 
 
 
@@ -328,11 +306,11 @@
 
 
 
-\- Será validado se a classe `rotateright` possui a propriedade `transform` igual a "matrix(0.996195, 0.0871557, -0.0871557, 0.996195, 0, 0)"
+- Será validado se a classe `rotateleft` possui a propriedade `transform` igual a "matrix(0.996195, -0.0871557, 0.0871557, 0.996195, 0, 0)"
 
 
 
-\### 14 - Crie a classe `skewleft`.
+### 13 - Crie a classe `rotateright`.
 
 
 
@@ -340,9 +318,9 @@
 
 
 
-​    \* Defina as propriedades:
+​    * Defina as propriedades:
 
-​      \- `transform` com o valor `skewX(10deg)`;
+​      - `transform` com o valor `rotate(5deg)`
 
 
 
@@ -350,11 +328,11 @@
 
 
 
-\- Será validado se a classe `skewleft` possui a propriedade `transform` igual a "matrix(1, 0, 0.176327, 1, 0, 0)"
+- Será validado se a classe `rotateright` possui a propriedade `transform` igual a "matrix(0.996195, 0.0871557, -0.0871557, 0.996195, 0, 0)"
 
 
 
-\### 15 - Crie a classe `skewright`.
+### 14 - Crie a classe `skewleft`.
 
 
 
@@ -362,9 +340,9 @@
 
 
 
-​    \* Defina as propriedades:
+​    * Defina as propriedades:
 
-​      \- `transform` com o valor `skewX(-10deg)`;
+​      - `transform` com o valor `skewX(10deg)`;
 
 
 
@@ -372,11 +350,11 @@
 
 
 
-\- erá validado se a classe `skewright` possui a propriedade `transform` igual a "matrix(1, 0, -0.176327, 1, 0, 0)"
+- Será validado se a classe `skewleft` possui a propriedade `transform` igual a "matrix(1, 0, 0.176327, 1, 0, 0)"
 
 
 
-\### 16 - Adicione as classes de forma aleatória a fim de estilizar as palavras.
+### 15 - Crie a classe `skewright`.
 
 
 
@@ -384,19 +362,41 @@
 
 
 
-​    \* As classes devem ser adicionadas às tags `span` de forma **aleatória**.
+​    * Defina as propriedades:
 
-​    \* Sempre adicione mais de uma classe em uma palavra.
+​      - `transform` com o valor `skewX(-10deg)`;
 
-​    \* Utilize as classes:
 
-​      \- `newspaper`, `magazine1`, `magazine2` (Grupo estilo)
 
-​      \- `medium`, `big`, `reallybig` (Grupo tamanho)
+**O que será verificado:**
 
-​      \- `rotateleft`, `rotateright` (Grupo rotação)
 
-​      \- `skewleft`, `skewright` (Grupo inclinação)
+
+- erá validado se a classe `skewright` possui a propriedade `transform` igual a "matrix(1, 0, -0.176327, 1, 0, 0)"
+
+
+
+### 16 - Adicione as classes de forma aleatória a fim de estilizar as palavras.
+
+
+
+  Pontos importantes:
+
+
+
+​    * As classes devem ser adicionadas às tags `span` de forma **aleatória**.
+
+​    * Sempre adicione mais de uma classe em uma palavra.
+
+​    * Utilize as classes:
+
+​      - `newspaper`, `magazine1`, `magazine2` (Grupo estilo)
+
+​      - `medium`, `big`, `reallybig` (Grupo tamanho)
+
+​      - `rotateleft`, `rotateright` (Grupo rotação)
+
+​      - `skewleft`, `skewright` (Grupo inclinação)
 
 
 
@@ -410,23 +410,23 @@
 
 
 
-\- Será validado se ao criar uma carta ela recebe uma lista de classes aleatórias
+- Será validado se ao criar uma carta ela recebe uma lista de classes aleatórias
 
 
 
-\- Será validado se ao criar uma segunda carta ela recebe uma lista de classes aleatórias
+- Será validado se ao criar uma segunda carta ela recebe uma lista de classes aleatórias
 
 
 
-\- Será validado se as classes das duas cartas não são exatamente iguais
+- Será validado se as classes das duas cartas não são exatamente iguais
 
 
 
-\## Requisitos Bônus:
+## Requisitos Bônus:
 
 
 
-\### 17 - Com uma carta misteriosa gerada, adicione a possibilidade de alterar o estilo de uma palavra específica ao clicar nela
+### 17 - Com uma carta misteriosa gerada, adicione a possibilidade de alterar o estilo de uma palavra específica ao clicar nela
 
 
 
@@ -434,9 +434,9 @@
 
 
 
-​    \* Ao clicar em uma palavra, um novo estilo **aleatório** deve ser aplicado.
+​    * Ao clicar em uma palavra, um novo estilo **aleatório** deve ser aplicado.
 
-​    \* O número de mudanças deve ser ilimitado;
+​    * O número de mudanças deve ser ilimitado;
 
 
 
@@ -444,15 +444,15 @@
 
 
 
-\- Será validado se ao clicar em uma carta uma nova lista aleatória de classes é gerada
+- Será validado se ao clicar em uma carta uma nova lista aleatória de classes é gerada
 
 
 
-\- Será validado se ao clicar novamente na mesma carta uma nova lista aleatória de classes é gerada e se a nova lista é diferente da lista anterior
+- Será validado se ao clicar novamente na mesma carta uma nova lista aleatória de classes é gerada e se a nova lista é diferente da lista anterior
 
 
 
-\### 18 - Deve haver um parágrafo com o id=\"carta-contador\" onde existirá um contador de palavras
+### 18 - Deve haver um parágrafo com o id=\"carta-contador\" onde existirá um contador de palavras
 
 
 
@@ -460,7 +460,7 @@
 
 
 
-​    \* Esse contador deve informar a quantidade de palavras presentes na carta misteriosa gerada.
+​    * Esse contador deve informar a quantidade de palavras presentes na carta misteriosa gerada.
 
   
 
@@ -468,8 +468,8 @@
 
 
 
-\- Será validado que existe um elemento `p` com o `id="carta-contador"`
+- Será validado que existe um elemento `p` com o `id="carta-contador"`
 
 
 
-\- Será validado se ao criar uma carta o elemento `p` com o `id="carta-contador"  é atualizado com o número de palavras da carta (valor numérico).
+- Será validado se ao criar uma carta o elemento `p` com o `id="carta-contador"  é atualizado com o número de palavras da carta (valor numérico).
